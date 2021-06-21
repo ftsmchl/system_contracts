@@ -1,0 +1,53 @@
+[
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "name",
+          "outputs": [
+           {
+             "name": "",
+             "type": "string"
+           }
+         ],
+         "payable": false,
+         "stateMutability": "view",
+         "type": "function"
+       },
+       {
+         "inputs": [
+           {
+             "name": "_name",
+             "type": "string"
+           }
+         ],
+         "payable": false,
+         "stateMutability": "nonpayable",
+         "type": "constructor"
+       },
+       {
+         "anonymous": false,
+         "inputs": [
+           {
+             "indexed": false,
+             "name": "myAddress",
+             "type": "address"
+           }
+         ],
+         "name": "UserCreated",
+         "type": "event"
+       },
+       {
+         "constant": false,
+        "inputs": [],
+         "name": "callGreeting",
+         "outputs": [
+           {
+             "name": "",
+             "type": "string"
+           }
+         ],
+         "payable": false,
+         "stateMutability": "nonpayable",
+         "type": "function"
+       }
+    ],
